@@ -55,20 +55,7 @@ with AI-powered interview prep</p>
             </li>
            
         </ul>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-            
+    </div>  
     </div>
 
     </div>

@@ -1,4 +1,8 @@
 {
-  "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(auth)/sign-in/[[...sign-in]]/page": "app/(auth)/sign-in/[[...sign-in]]/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/interview/[interviewId]/page": "app/dashboard/interview/[interviewId]/page.js",
+  "/dashboard/interview/[interviewId]/start/page": "app/dashboard/interview/[interviewId]/start/page.js",
+  "/dashboard/interview/[interviewId]/feedback/page": "app/dashboard/interview/[interviewId]/feedback/page.js"
 }

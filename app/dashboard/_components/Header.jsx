@@ -34,9 +34,6 @@ function Header() {
                         <li className={`list-none hover:text-primary mr-5 hover:font-bold transition-all cursor-pointer ml-6 ${path == '/dashboard' && 'text-primary font-bold'}`}>
                             Dashboard
                         </li>
-                        {/* <li className={`list-none hover:text-primary hover:font-bold transition-all cursor-pointer ml-6 ${path == '/dashboard' && 'text-primary font-bold'}`}>
-                            Hello,{user.firstName}
-                        </li> */}
                     </Link>
                 )}
                 <span className='text-primary font-bold'> Hello, {user.firstName}!</span>

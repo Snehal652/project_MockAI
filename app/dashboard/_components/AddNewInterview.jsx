@@ -41,8 +41,8 @@ function AddNewInterview() {
         // console.log(JSON.parse(MockJsonResp));
         setJsonResponse(MockJsonResp);
 
-        if(MockJsonResp)
-        {
+    if(MockJsonResp)
+    {
         const resp=await db.insert(MockInterview)
         .values({
             mockId:uuidv4(),
